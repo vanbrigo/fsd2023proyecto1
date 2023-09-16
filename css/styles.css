@@ -1,5 +1,9 @@
 .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    width: 100vw;
 
     margin: 0;
     padding: 0;
@@ -7,54 +11,179 @@
     background-color: rgb(227, 228, 242);
 }
 
-#tercio1 {
-    background-color: rgb(227, 228, 242);
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-    
-}
 
-#tercio2 {
-    background-color: rgb(227, 228, 242);
-    justify-content: center;
+#mitad1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: sans-serif;
     font-weight: 100;
 
+    padding: 0;
+    margin: 0;
     
-
 }
 
-#tercio3 {
-    background-color:  rgb(13, 36, 53);
-}
-
-#botoncarta {
-    color: rgb(13, 36, 53);
-}
-
-#botoncontacto {
-    color: rgb(13, 36, 53);
-}
-
-#botoninicio {
-    color: rgb(13, 36, 53);
-    font-family: sans-serif;
-    font-weight: 100;
-
-}
-
-.bloquevertical2 {
+#mitad2 {
     background-color: rgb(13, 36, 53);
     justify-content: center;
     display: flex;
+    font-family: sans-serif;
+    font-weight: 100;
+
+    
+
+}
+
+#botoncarta {
+    color:whitesmoke;
+}
+
+#botoncontacto {
+    color: whitesmoke;
+}
+
+#botoninicio {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+
+
+.bloquevertical2 {
+    background-color: rgb(13, 36, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1em;
+
+    padding: 0;
+    margin: 0;
+      
 }
 
 .bloquevertical1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-start;
+    background-color: greenyellow;
+    background-image: url(../img/musicalabirreria.jpeg);
+
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
       
 }
- 
+
+.bloqueverticalmedio {
+    background-color: rgb(13, 36, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    gap: 4em;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+      
+}
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    padding: 0;
+    margin: 0;
+}
+
+#imagenburger {
+    width: 35em;
+    height: 35em;
+}
+
+#direccion {
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 1em;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+
+#bloquelogo {
+    margin: 1em;
+}
+
+#redessociales {
+    color: whitesmoke;
+    align-items: center;
+    margin: 1em;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.pagina3 {
+    display: flex;
+    justify-content: center;
+}
+
+#boton {
+    color: rgb(207, 166, 112);
+}
+
+#boton:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#contactanos {
+    color: rgb(207, 166, 112);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.bloqueverticalcarta2 {
+    /* background-color: aquamarine; */
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/platoburger.jpeg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.bloqueverticalcarta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+#partesuperior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 2em;
+    flex-direction: column;
+}
+
+/* #parteinferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
 
