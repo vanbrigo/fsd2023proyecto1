@@ -167,6 +167,7 @@
 
 #boton {
     color: rgb(207, 166, 112);
+    
 }
 
 #boton:hover {
@@ -174,22 +175,35 @@
     cursor: pointer;
 }
 
-/* #contactanos {
-    color: rgb(207, 166, 112);
+#contactanos {
+    color:  rgb(12, 39, 59);
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 2em;
     font-size: xx-large;
-} */
+    background-color: white;
+    opacity: 0.7;
+}
 
-.bloqueverticalcarta2 {
-    /* background-color: aquamarine; */
-    display: flexbox;
+#formulario {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/platoburger.jpeg);
-    background-size: cover;
-    height: 100vh;
+    flex-direction: column;
+    gap:1em;
+}
 
+
+.bloqueverticalcarta2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../img/platoburger.jpeg);
+    background-size: cover; */
+    height: 100vh;
+    box-sizing: border-box;
+    
 }
 
 .bloqueverticalcarta {
@@ -197,16 +211,26 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: 100vh;
+    width: 50vw;
     flex-direction: column;
 
+}
+
+.containercarta {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
 }
 
 #partesuperior {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5em;
-    margin-top: 2em;
+    margin: 1em 3em 0em 3em;
     flex-direction: column;
 }
 
@@ -234,5 +258,58 @@
 
     padding: 0;
     margin: 0;
+}
+
+#imagencarta {
+    height: 100%;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+#imagenmenu {
+    /* height: 100%;
+    width: 100%;
+
+    padding: 0;
+    margin: 0; */
+
+}
+
+#botontrabaja {
+    color: whitesmoke;
+
+}
+
+.containertrabaja {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 3em;
+    margin: 0;
+
+    gap: 1em;
+}
+
+#bloquetextohistoria {
+    background-color: whitesmoke;
+    padding: 4em;
+    font-family: sans-serif;
+    font-weight: 100;
+    color:rgb(13, 36, 53);
+    
+}
+
+#textohistoria {
+    color: rgb(12, 39, 59);
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    background-color: white;
+    opacity: 0.7;
 }
 
