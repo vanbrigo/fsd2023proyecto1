@@ -11,12 +11,23 @@
     background-color: rgb(227, 228, 242);
 }
 
+#paginaprincipal {
+    flex-direction: column;
+    background-color: rgb(13, 36, 53);
+    /* width: 100vw;
+
+    padding: 0;
+    margin: 0; */
+}
+
 
 #mitad1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
+
     font-family: sans-serif;
     font-weight: 100;
 
@@ -27,11 +38,10 @@
 
 #mitad2 {
     background-color: rgb(13, 36, 53);
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
-    font-family: sans-serif;
-    font-weight: 100;
-
+    flex-direction: row;
+    gap: 4em;
     
 
 }
@@ -93,12 +103,13 @@
 }
 
 .container {
-    background-color: blueviolet;
+    background-color: rgb(13, 36, 53);
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+    flex-direction: column;
+    width: 100vh;
+ 
     padding: 0;
     margin: 0;
 }
