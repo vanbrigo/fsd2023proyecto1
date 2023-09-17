@@ -69,6 +69,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    width: 25vw;
     gap: 1em;
 
     padding: 0;
@@ -78,14 +79,19 @@
 
 .bloquevertical1 {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
+    align-items: center;
+    object-fit: cover;
     background-color: greenyellow;
-    background-image: url(../img/musicalabirreria.jpeg);
+    box-sizing: border-box;
+    /* background-image: url(../img/musicalabirreria.jpeg); */
 
     padding: 0;
     margin: 0;
 
+
     height: 100vh;
+    width: 50vw;
       
 }
 
@@ -96,6 +102,7 @@
     align-items: space-around;
     gap: 4em;
     height: 100vh;
+    width: 25vw;
 
     padding: 0;
     margin: 0;
@@ -197,4 +204,23 @@
     align-items: center;
 
 } */
+
+#bloqueimagen {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+#imagencontactomusica {
+    /* object-fit: contain;
+    box-sizing: border-box; */
+    height: 100%;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
 
