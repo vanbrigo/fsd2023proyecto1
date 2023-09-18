@@ -1,81 +1,62 @@
 .container-fluid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
 
     margin: 0;
     padding: 0;
 
-    background-color: rgb(227, 228, 242);
+    background-color: rgb(90, 97, 195);
 }
 
 #paginaprincipal {
     flex-direction: column;
     background-color: rgb(13, 36, 53);
-    /* width: 100vw;
+     
+}
 
-    padding: 0;
-    margin: 0; */
+.row2 {
+    background-color: rgb(196, 116, 29);
+}
+
+#columna1 {
+    background-color: rgba(38, 63, 83, 0.8);
+    /* background-color: rgba(216, 126, 30, 0.594); */
+}
+
+#columna3 {
+    background-color: rgba(38, 63, 83, 0.8);
+    /* background-color: rgba(216, 126, 30, 0.594); */
 }
 
 
-#mitad1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100vw;
-
-    font-family: sans-serif;
-    font-weight: 100;
-
-    padding: 0;
-    margin: 0;
-    
-}
-
-#mitad2 {
-    background-color: rgb(13, 36, 53);
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    gap: 4em;
-    
-
-}
 
 #botoncarta {
-    color:whitesmoke;
+    font-family: sans-serif;
+    color: rgb(38, 63, 83);
+    font-weight: 100;
+    
 }
 
 #botoncontacto {
-    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 100;
+    color:rgb(38, 63, 83);
+    
+}
+
+#botontrabaja {
+    font-family: sans-serif;
+    font-weight: 100;
+    color:rgb(38, 63, 83);;
+
 }
 
 #botoninicio {
-    color: whitesmoke;
-    font-family: sans-serif;
-    font-weight: 100;
-
+    margin-left: 2em;
+  
 }
 
-
-/* .bloquevertical2 {
-    background-color: rgb(13, 36, 53);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 25vw;
-    gap: 1em;
-
-    padding: 0;
-    margin: 0;
-      
-} */
+#rowcarta {
+  background-color: rgb(38, 63, 83);;  
+}
 
 .bloquevertical1 {
     display: flex;
@@ -84,7 +65,6 @@
     object-fit: cover;
     background-color: greenyellow;
     box-sizing: border-box;
-    /* background-image: url(../img/musicalabirreria.jpeg); */
 
     padding: 0;
     margin: 0;
@@ -95,36 +75,31 @@
       
 }
 
-.bloquevertical2 {
-    background-color: rgb(13, 36, 53);
-    display: flex;
-    flex-direction: column;
-    align-items: space-around;
-    gap: 2.5em;
-    height: 100vh;
-    width: 30vw;
-
-    padding: 0;
-    margin: 0;
-      
+.mapa {
+    justify-content: center;
+    padding: 2em;
+    background-color: rgb(38, 63, 83);
+    padding-top: 2em;
+    padding-bottom: 3em;
+    gap: 3em;
 }
 
-.container {
+.siguenos {
+    gap:2em;
+    padding-top: 1em;
+}
+
+/* .container {
     background-color: rgb(13, 36, 53);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 100vh;
+    flex-direction: row;
+    width:100vw;
  
-    padding: 0;
-    margin: 0;
-}
-
-#imagenburger {
-    width: 35em;
-    height: 35em;
-}
+    padding: 2em;
+    margin:0;
+} */
 
 #direccion {
     align-items: center;
@@ -144,13 +119,6 @@
     font-size: large;
 }
 
-#bloquelogo {
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-
-}
-
 #redessociales {
     color: whitesmoke;
     justify-content: center;
@@ -165,66 +133,11 @@
     justify-content: center;
 }
 
-#boton {
-    color: rgb(207, 166, 112);
-    
-}
-
 #boton:hover {
     color: whitesmoke;
     cursor: pointer;
 }
 
-#contactanos {
-    color:  rgb(12, 39, 59);
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 2em;
-    font-size: xx-large;
-    background-color: white;
-    opacity: 0.7;
-}
-
-#formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:1em;
-}
-
-
-.bloqueverticalcarta2 {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-image: url(../img/platoburger.jpeg);
-    background-size: cover; */
-    height: 100vh;
-    box-sizing: border-box;
-    
-}
-
-.bloqueverticalcarta {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
-    width: 50vw;
-    flex-direction: column;
-
-}
-
-.containercarta {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-
-    padding: 0;
-    margin: 0;
-}
 
 #partesuperior {
     display: flex;
@@ -234,12 +147,6 @@
     flex-direction: column;
 }
 
-/* #parteinferior {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-} */
 
 #bloqueimagen {
     height: 100%;
@@ -250,66 +157,152 @@
     margin: 0;
 }
 
-#imagencontactomusica {
-    /* object-fit: contain;
-    box-sizing: border-box; */
-    height: 100%;
-    width: 100%;
+.rowcontacto {
 
-    padding: 0;
-    margin: 0;
-}
-
-#imagencarta {
-    height: 100%;
-    width: 100%;
-
-    padding: 0;
-    margin: 0;
-}
-
-#imagenmenu {
-    /* height: 100%;
-    width: 100%;
-
-    padding: 0;
-    margin: 0; */
-
-}
-
-#botontrabaja {
-    color: whitesmoke;
-
-}
-
-.containertrabaja {
-    /* background-color: blue; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 3em;
+    padding: 0;
     margin: 0;
+    background-color: rgb(38, 63, 83);
 
-    gap: 1em;
+    box-sizing: border-box;
+  
 }
 
-#bloquetextohistoria {
-    background-color: whitesmoke;
-    padding: 4em;
+.textohistoria {
+    background-color: rgba(12, 39, 59, 0.3);
+    padding: 0.3em;
     font-family: sans-serif;
-    font-weight: 100;
-    color:rgb(13, 36, 53);
+    font-weight: 200;
+    color:whitesmoke;
     
 }
 
-#textohistoria {
+.nuestrahistoria {
+    background-color: rgba(12, 39, 59, 0.6);
+    padding: 0.3em;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.columnatexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(12, 39, 59);
     font-family: sans-serif;
     font-size: 2em;
     font-weight: 500;
     background-color: white;
     opacity: 0.7;
+    margin-left: 2em;
 }
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 39, 59);
+    font-family: sans-serif;
+    background-color: white;
+    opacity: 0.7;
+
+}
+
+
+.rowcarta2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    
+
+}
+
+.navbar-toggler {
+    margin-right: 2em;
+}
+
+.navbar-collapse {
+    margin-left: 2em;
+}
+
+.columnacard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    margin: 1em;
+    flex-direction: column;
+    gap: 2em;
+    flex-wrap: wrap;
+    max-width:max-content;
+    
+}
+
+.columnarelleno{
+    background-color: rgba(12, 39, 59, 0.6);
+}
+
+.columnamedio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    padding: 2em;
+    gap: 2em;
+    /* background-color: rgba(216, 126, 30, 0.594); */
+}
+
+.textocarta{
+    background-color: rgba(216, 126, 30, 0.623);
+    padding: 0.3em;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color:whitesmoke;
+
+    flex-wrap: wrap;
+}
+
+.card-text {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color:rgb(38, 63, 83);
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color:rgb(38, 63, 83); 
+}
+
+.dondeestamos {
+    background-color: rgba(12, 39, 59, 0.6);
+    padding: 0.3em;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
 
