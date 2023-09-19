@@ -18,8 +18,8 @@ Pagina web de un restaurante de hamburguesas. La web consta de 3 paginas: Pagina
 ## Capturas de Pantalla
 
 ![Pagina Principal](img/captura1.png)
-![Pagina Carta](/captura2.png)
-![Pagina Contacto](/captura3.png)
+![Pagina Carta](img/captura2.png)
+![Pagina Contacto](img/captura3.png)
 
 (URL de la Pagina web[La Birreria](https://vanbrigo.github.io/fsd2023proyecto1/index.html))
 

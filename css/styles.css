@@ -1,9 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+
+
 .container-fluid {
 
     margin: 0;
     padding: 0;
 
     background-color: rgb(90, 97, 195);
+    overflow-x: hidden;
 }
 
 #paginaprincipal {
@@ -17,13 +23,11 @@
 }
 
 #columna1 {
-    background-color: rgba(38, 63, 83, 0.8);
-    /* background-color: rgba(216, 126, 30, 0.594); */
+    background-color: rgba(216, 126, 30, 0.594);
 }
 
 #columna3 {
-    background-color: rgba(38, 63, 83, 0.8);
-    /* background-color: rgba(216, 126, 30, 0.594); */
+    background-color: rgba(216, 126, 30, 0.594);
 }
 
 
@@ -315,6 +319,13 @@
 
 .formulario {
     padding: 2em;
+}
+
+.tercerafilacontacto {
+    background-color: rgba(12, 39, 59, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
