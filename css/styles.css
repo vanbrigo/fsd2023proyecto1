@@ -1,5 +1,8 @@
 body{
     overflow-x: hidden;
+
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -7,23 +10,23 @@ body{
 
     margin: 0;
     padding: 0;
+    background-color:rgba(13, 36, 53, 0.4) ;
 
-    background-color: rgb(90, 97, 195);
     overflow-x: hidden;
 }
 
-#paginaprincipal {
-    flex-direction: column;
-    background-color: rgb(13, 36, 53);
-     
-}
 
-.row2 {
-    background-color: rgb(196, 116, 29);
+.filahistoria {
+    background-color: rgba(38, 63, 83, 0.635);
+    padding: 3em;
 }
 
 #columna1 {
-    background-color: rgba(216, 126, 30, 0.594);
+    background-color:rgba(216, 126, 30, 0.594);
+}
+
+#columna2 {
+    background-color:rgba(216, 126, 30, 0.594);
 }
 
 #columna3 {
@@ -58,10 +61,6 @@ body{
   
 }
 
-#rowcarta {
-  background-color: rgb(38, 63, 83);;  
-}
-
 .bloquevertical1 {
     display: flex;
     justify-content:center;
@@ -89,21 +88,10 @@ body{
 }
 
 .siguenos {
+    color: whitesmoke;
     gap:2em;
-    padding-top: 1em;
+    padding: 1em;
 }
-
-/* .container {
-    background-color: rgb(13, 36, 53);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width:100vw;
- 
-    padding: 2em;
-    margin:0;
-} */
 
 #direccion {
     align-items: center;
@@ -178,6 +166,7 @@ body{
     font-family: sans-serif;
     font-weight: 200;
     color:whitesmoke;
+    justify-content: center;
     
 }
 
@@ -225,51 +214,12 @@ body{
 
 }
 
-
-.rowcarta2 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    
-
-}
-
 .navbar-toggler {
     margin-right: 2em;
 }
 
 .navbar-collapse {
     margin-left: 2em;
-}
-
-.columnacard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3em;
-    margin: 1em;
-    flex-direction: column;
-    gap: 2em;
-    flex-wrap: wrap;
-    max-width:max-content;
-    
-}
-
-.columnarelleno{
-    background-color: rgba(12, 39, 59, 0.6);
-}
-
-.columnamedio {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    max-width: fit-content;
-    padding: 2em;
-    gap: 2em;
-    /* background-color: rgba(216, 126, 30, 0.594); */
 }
 
 .textocarta{
@@ -310,7 +260,7 @@ body{
 }
 
 .segundafilacontacto {
-    background-color: rgba(12, 39, 59, 0.6);
+    background-color: rgb(38, 63, 83);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,10 +272,38 @@ body{
 }
 
 .tercerafilacontacto {
-    background-color: rgba(12, 39, 59, 0.6);
+    background-color: rgb(38, 63, 83);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.filacartaburger {
+    padding: 2em;
+    gap: 1em;
+    justify-content: center;
+    
+}
+
+.filacartanombre {
+    color: rgba(216, 126, 30, 0.623);
+    padding: 2em;
+    gap: 1em;
+    justify-content: center;
+
+}
+
+.nombrecarta {
+    background-color: rgba(216, 126, 30, 0.417);
+    padding: 0.3em;
+    font-family: sans-serif;
+    font-weight: 300;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 
