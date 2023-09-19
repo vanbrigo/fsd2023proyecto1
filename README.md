@@ -26,9 +26,9 @@ Pagina web de un restaurante de hamburguesas. La web consta de 3 paginas: Pagina
 
 ## Tecnologías Utilizadas
 
-- (https://iconos8.es/icon/20909/html-5)
-- (https://iconos8.es/icon/21278/css3)
-- (https://iconos8.es/icon/EzPCiQUqWWEa/oreja)
+- (img/html5.png)
+- (img/css3.png)
+- (img/bootstrap.png)
 
 ## Issues
 
