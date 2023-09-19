@@ -305,4 +305,16 @@
     font-size: 1.5em;
 }
 
+.segundafilacontacto {
+    background-color: rgba(12, 39, 59, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.formulario {
+    padding: 2em;
+}
+
 
